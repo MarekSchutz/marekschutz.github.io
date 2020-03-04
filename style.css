@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    padding: 60px 10% 0;
+    box-sizing: border-box;
+    background-image: url(assets/topography.png);
+}
+nav {
+    background-color: #333333;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+nav ul {
+    padding: 0 10%;
+    display: flex;
+    list-style: none;
+    float: right;
+}
+nav ul a {
+  color: #ff0099;
+  line-height: 60px;
+  padding: 0 2em;
+  text-decoration: underline;
+  font-family: Consola, monospace;
+  font-size: 20px;
+}
+.logo{
+    padding-left:10%;
+    padding-top: 9px;
+    height: 70%;
+}
+h1{
+    padding: 50px 0 0 0;
+    font-family: Rasa, monospace;
+    font-size: 80px;
+    font-weight: 900;
+}
+h2{
+    font-family: Rasa, monospace;
+    font-size: 50px;
+    color: #ff0099;
+    font-weight: bold;
+    margin: 20px 0;
+}
+h3{
+    font-family: Rasa, monospace;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px 0;
+}
+h4{
+    font-family: Rasa, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0 10px 0;
+}
+.substract{
+    font-size: 30px;
+    text-align: center;
+    margin: 80px;
+}
+.text{
+    font-family: Consola, monospace;
+    font-size: 18px;
+    margin:0 0 20px;
+    font-weight: 500;
+}
